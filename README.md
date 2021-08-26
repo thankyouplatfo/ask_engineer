@@ -34,9 +34,11 @@ php artisan  migrate
 php artisan  db:seed
 phpartisan serv  
 ```
-#### معلومات الدخول للوحة المشرف  
+#### معلومات الدخول للوحة المشرف 
+```
 email:admin@ask_engineer.com
 password:PASSask_engineer
+```
 ## شكرا
 
 تشكر منصة شكرا لك القائمين على إطار العمل لارافيل لاتاحتهم موارد إطار العمل هذا بشكل مجاني 
