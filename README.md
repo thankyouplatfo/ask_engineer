@@ -1,5 +1,4 @@
 <p align="center"><a href="https://ibb.co/JkSQ1Tg"><img src="https://i.ibb.co/f0TvgWL/ask-engineer-logo.jpg" alt="ask-engineer-logo" border="0" width='100%' height='475'/></a></p>
-<!--abute --v-->
 ## حول إسأل مهندس
 
 النسخة الكاملة من موقع إسأل مهندس
@@ -32,9 +31,11 @@ php artisan  migrate
 php artisan  db:seed
 phpartisan serv  
 ```
-#### معلومات الدخول للوحة المشرف  
-email:admin@ask_engineer.com
-password:PASSask_engineer
+#### معلومات الدخول للوحة المشرف 
+```
+- email:admin@ask_engineer.com
+- password:PASSask_engineer
+```
 ## شكرا
 
 تشكر منصة شكرا لك القائمين على إطار العمل لارافيل لاتاحتهم موارد إطار العمل هذا بشكل مجاني 
