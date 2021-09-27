@@ -1,0 +1,267 @@
+CMSHomePageBgHeader
+================================================
+bg_header
+title_on_bg_header
+title2_on_bg_header
+para_on_button_on_bg_header
+================================================
+20
+50
+30
+================================================
+صورة 
+اسم التفرع 
+الخطة عادي 
+الخطة شجرة 
+مواد التخصص
+================================================
+مواد التخصص 
+مواد التخصص
+================================================
+routes
+views
+controller
+file system (option)
+model 
+migrateion
+form
+================================================
+image
+title
+tree_file
+table_file
+slug
+category_id
+================================================
+catgories
+
+id
+image
+title
+slug
+description
+
+هوية شخصية
+صورة
+لقب
+سبيكة
+وصف
+
+
+================================================
+movies
+
+================================================
+جدول إضافة مادة
+ 
+id
+image
+title
+description
+movie_id
+created_at
+updated_at
+================================================
+study_materials
+================================================
+image
+title
+slug
+description
+movie_id
+================================================
+important URL
+https://laravel.com/docs/8.x/eloquent-relationships
+------------
+https://www.w3schools.com/sql/sql_join.asp
+-----------
+https://laravel.com/docs/8.x/queries
+-----------
+ﺍﻟﻠﻐﺔ ﺍﻟﻌﺮﺑﻴﺔ  Arabic
+ﺍﻟﻠﻐﺔ  ﺍﻻﻧﺠﻠﻴﺰﻳﺔ   English
+ﺍﻟﻠﻐﺔ ﺍﻟﻔﺮﻧﺴﻴﺔ  French
+ﺍﻟﺮﻳﺎﺿﻴﺎﺕ ﺍﻟﺤﺴﺎﺏ  Math/ Mathematics
+ﺍﻟﺠﺒﺮ Algebra
+ﺍﻟﻬﻨﺪﺳﺔ Geometry
+ﺍﻟﻌﻠﻮﻡ Science
+ﺍﻟﻔﻴﺰﻳﺎﺀ Physics
+ﺍﻟﻜﻴﻤﻴﺎﺀ Chemistry
+ﺍلأحياﺀ Biology
+ﺩﺭﺍﺳﺎﺕ ﺍﺟﺘﻤﺎﻋﻴﺔ  Social Studies
+ﺗﺎﺭﻳﺦ History
+ﺟﻐﺮﺍﻓﻴﺎ Geography
+ﻋﻠﻢ  ﺍﻻﻗﺘﺼﺎﺩ Economics
+ﺍﻟﺠﻴﻮﻟﻮﺟﻴﺎ Geology
+ﻓﻠﺴﻔﺔ Philosophy
+ﻣﻨﻄﻖ Logic
+ﻋﻠﻢ  ﺍﻟﻨﻔﺲ Psychology
+ﺗﺮﺑﻴﺔ  ﺍﺳﻼﻣﻴﺔ Islamic Education
+ﺗﺮﺑﻴﺔ ﻗﻮﻣﻴﺔ National Education
+ﺗﻜﻨﻮﻟﻮﺟﻴﺎ  ﺍﻟﻤﻌﻠﻮﻣﺎﺕ  Information Technology
+ﺗﺮﺑﻴﺔ  ﺑﺪﻧﻴﺔ  Physical Education
+ﺗﺮﺑﻴﺔ ﻓﻨﻴﺔ  Art
+ﺗﺮﺑﻴﺔ ﻣﻮﺳﻴﻘﻴﺔ  Music
+-----------------------------------------------
+ {{ $item->movie->slug }}
+-----------------------------------------------
+ المستندات إلى 
+والصور إلى أسئلة سنوات
+-----------------------------------------------
+تبويب جديد المواد
+		مواد الإجباري
+		موادالإختياري
+	مواد العلوم 
+		نظري 
+		للطبيقي
+------------------------------------------------
+image
+title
+slug
+description
+movie_id
+-----------------------------------------------
+name
+url
+file
+yearly_school_material_id
+laboratory_material_id
+------------------------------------------------
+إحرص على اختيار صور غامقة اللون أو تميل للسواد للأقسام فذلك يسهم في إظهار النصوص الموجودة في الصورة الرئيسة للقسم.
+------------------------------------------------
+المحاضرة 101
+------------------------------------------------
+name
+file
+sciences_material_id
+laboratory_science_id
+------------------------------------------------
+kuliyatIijbari
+	image
+	title
+	slug
+kuliyatIijbariMaterials
+	image
+	title
+	slug
+	kuliyat_iijbari_id
+kuliyatIijbariLabs
+	image
+	title
+	slug
+	kuliyat_iijbari_id
+kuliyatIijbariAddDocument
+	title
+	file
+	kuliyat_iijbari_material_id
+	kuliyat_iijbari_lab_id
+kuliyatIijbariAddImage
+	title
+	url
+	kuliyat_iijbari_material_id
+	kuliyat_iijbari_lab_id
+------------------------------------------------
+jamieaIijbari
+	image
+	title
+	slug
+jamieaIijbariMaterials
+	image
+	title
+	slug
+	jamiea_iijbari_id
+--jamieaIijbariLabs
+	image
+	title
+	slug
+	jamiea_iijbari_id--
+jamieaIijbariAddDocument
+	title
+	file
+	jamiea_iijbari_material_id
+	jamiea_iijbari_lab_id
+jamieaIijbariAddImage
+	title
+	url
+	jamiea_iijbari_material_id
+	jamiea_iijbari_lab_id
+------------------------------------------------
+jamieaIijbari
+	image
+	title
+	slug
+jamieaIijbariMaterials
+	image
+	title
+	slug
+	jamiea_iijbari_id
+--jamieaIijbariLabs
+	image
+	title
+	slug
+	jamiea_iijbari_id--
+jamieaIijbariAddDocument
+	title
+	file
+	jamiea_iijbari_material_id
+	jamiea_iijbari_lab_id
+jamieaIijbariAddImage
+	title
+	url
+	jamiea_iijbari_material_id
+	jamiea_iijbari_lab_id
+------------------------------------------------
+jamieaAkhtiari
+	image
+	title
+	slug
+jamieaAkhtiariMaterials
+	image
+	title
+	slug
+	jamiea_akhtiari_id
+jamieaAkhtiariAddDocument
+	title
+	file
+	jamiea_akhtiari_material_id
+jamieaAkhtiariAddImage
+	title
+	url
+	jamiea_akhtiari_material_id
+===============================================
+laboratory_materials
+laboratory_materials
+--------------------
+addDocument
+--------------------
+addImage
+------------------------------------------------
+image
+title
+slug
+description
+specialization_id
+------------------------------------------------
+importantLink
+	title
+	url
+	slug
+
+تم بحمد الله في 3:40 ظهرا 28 ذو الحجة 1442 || 7 أغسطس 2021
+------------------------------------------------
+النسخة الكاملة من موقع إسأل مهندس
+git commit -m 'The full version of the site Ask an engineer'
+---------------------------------------------------
+النسخة الكاملة من موقع إسأل مهندس
+تم إنشاء  هذا الموقع لجمعية طلابية جامعية في الأردن يمكنك هذا الموقع أو تطبيق الويب 
+بإنشاء صفحة قسم تحوي صفحة تخصصات وصفحة التخصص بعد زيارتها تمكنك من رؤية المواد في الموجودة فيها ولكل مادة رابط خاص يمكنك من زيارتها رؤية ملفات محاضرتها وبنك أسئلتها وغير ذلك الكثير 
+---------------------------------------------------
+ask_engineer
+---------------------------------------------------
+askengineer.infinityfreeapp.com
+---------------------------------------------------
+abdelwhabhamza8@gmail.com
+Hamza179#
+------------------------------------------
+CREATE DATABASE mydb
+  CHARACTER SET utf8
+  COLLATE utf8_general_ci;
